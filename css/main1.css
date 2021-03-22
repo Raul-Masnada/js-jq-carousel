@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+.center{
+  text-align: center;
+}
+
+.container{
+  width: 60%;
+  margin: 50px auto;
+}
+
+.container-foto{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-foto .img-pixel img {
+  display: none;
+  max-height: 900px;
+  max-width: 900px;
+  min-height: 600px;
+  min-width: 600px;
+}
+
+.container-foto .img-pixel img.active {
+  display: inline-block;
+}
+
+.container-foto i{
+  font-size: 60px;
+  color: black;
+}
+
+.prev, .next {
+  cursor: pointer;
+}
